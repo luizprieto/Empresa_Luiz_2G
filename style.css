@@ -104,7 +104,7 @@ form label, form legend{
 .enviar{
   width: 40%;
   padding: 15px 0;
-  background: #660000;
+  background: #00374a;
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -123,7 +123,7 @@ table{
 }
 
 thead{
-  background: #660000;
+  background: #00374a;
   color: #ffffff;
   font-weight: bold;
 }

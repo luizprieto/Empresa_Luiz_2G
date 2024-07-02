@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #00374a;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px 0;
+}
+
+footer {
+  background-color: #00374a;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.preco{
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0 0 0;
+}
+
+.imagem{
+  width: 400px;
+}
+
+.produtos li{
+  display: inline-block;
+  text-align: center;
+  width: 80%;
+  vertical-align: top;
+  margin: 5px 1.5%;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border: 2px solid #000000;
+  border-radius: 2px;
+}
+
+main{
+  width: 1500px;
+  margin: 0 auto;
+}
+
+form{
+  margin: 40px 0;
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.input-padrao{
+  display: block;
+  margin-bottom: 20px
+  padding: 10px 25px;
+  width: 50%
+}
+
+.checkbox{
+  margin: 20px 0;
+}
+
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  background: #660000;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.enviar:hover{
+  background: #088C19;
+  transform: scale(1.1);
+}
+table{
+  margin: 20px 0 40px 0;
+}
+
+thead{
+  background: #660000;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+th, td{
+  border: 2px solid #000000;
+  padding: 10px 15px;
+}
